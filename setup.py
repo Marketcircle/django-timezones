@@ -9,7 +9,7 @@ setup(
     long_description = open("README").read(),
     url = "http://github.com/brosner/django-timezones/",
     license = "BSD",
-    install_requires = ['pytz']
+    install_requires = ['pytz'],
     packages = [
         "timezones",
         "timezones.templatetags",
